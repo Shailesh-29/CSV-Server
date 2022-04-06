@@ -1,0 +1,2 @@
+root@Shailesh-Test:/# cat part-1-logs
+2022/04/06 06:56:25 listening on ****

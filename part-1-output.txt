@@ -1,0 +1,28 @@
+root@Shailesh-Test:/# curl -vL http://localhost:9393/raw
+*   Trying 127.0.0.1:9393...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 9393 (#0)
+> GET /raw HTTP/1.1
+> Host: localhost:9393
+> User-Agent: curl/7.68.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Wed, 06 Apr 2022 07:11:52 GMT
+< Content-Length: 173
+< Content-Type: text/plain; charset=utf-8
+<
+Y3N2c2VydmVyIGdlbmVyYXRlZCBhdDogMTY0OTIyOTA0MQ==
+CSVSERVER_BORDER: Orange
+0,  10349
+1,  17571
+2,  11641
+3,  26399
+4,  23393
+5,  21286
+6,  31486
+7,  30473
+8,  3709
+9,  25356
+
