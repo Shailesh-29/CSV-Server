@@ -5,4 +5,6 @@ services:
   - 9393:9300
   volumes:
   - ./inputFile:/csvserver/inputdata
+  environment:
+      - CSVSERVER_BORDER=Orange
   image: "infracloudio/csvserver:latest"
